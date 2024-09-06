@@ -189,6 +189,25 @@ i:hover {
     text-align: center;
 }
 
+#be-partner h3 {
+    color: var(--color-pink);
+}
+
+h4 {
+    color: var(--color-white);
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.why-invest {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     height: 12vh;
     display: flex;
