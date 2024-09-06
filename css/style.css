@@ -35,6 +35,7 @@ h2 {
 .nav-link {
     color: var(--color-white);
     transition: var(--transition);
+    font-size: 1rem;
 }
 
 .nav-link:hover {
@@ -259,6 +260,10 @@ footer p {
         font-size: 0.8rem;
     }
 
+    .nav-link {
+        font-size: 0.67rem;
+    }
+
     .main-title{
         height: 70vh;
     }
@@ -304,6 +309,10 @@ footer p {
 
     h5{
         font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.6rem;
     }
 
     .navbar{
