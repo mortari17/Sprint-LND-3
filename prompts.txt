@@ -3,5 +3,3 @@ Estou fazendo um site sobre um robo construido pela minha equipe na minha faculd
 leve como base o principal perfil dos nossos potenciais investidores que descobrimos atraves de uma pesquisa:
 
 2-adicione tambem uma estimativa de ganhos financeiros
-
-3- diminua o tamanho dessas informaçãoes e tambem deixe mais dinamico, pense que isso estara numa secção de um site
