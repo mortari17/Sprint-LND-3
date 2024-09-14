@@ -1,385 +1,723 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fiapão</title>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/fcb9c16b20.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/fcb9c16b20.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./images/logo-icone.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/logo-icone.png"
+      type="image/x-icon"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <!-- Nav-bar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark-subtle" data-bs-theme="dark">
-    <div class="container-fluid">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Nav-bar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary bg-dark-subtle"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
         <ul class="navbar-nav d-flex flex-row me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link navbar-brand" href="#robot">O robô</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navbar-brand" href="#images">Imagens</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navbar-brand" href="#weapons">Armas</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navbar-brand" href="#hardware">Hardware</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navbar-brand" href="#videos">Vídeos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navbar-brand" href="#meet-us">Conheça os Fiapinhos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link navbar-brand" href="#be-partner">Seja nosso sócio</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" href="#robot">O robô</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" href="#images">Imagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" href="#weapons">Armas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" href="#hardware">Hardware</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" href="#videos">Vídeos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" href="#meet-us"
+              >Conheça os Fiapinhos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-brand" href="#be-partner"
+              >Seja nosso sócio</a
+            >
+          </li>
         </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
 
-  <!-- Main Title -->
+    <!-- Main Title -->
     <div class="main-title">
-        <div class="title">
-            <h1>FIAPÃO</h1>
-            <img src="./images/logo-fiapao.png" alt="Logo do Fiapão em branco com fundo transparente.">
-        </div>
-        <div class="h2-text"><h2 class="future">O futuro</h2> <h2>começa aqui</h2></div>
+      <div class="title">
+        <h1>FIAPÃO</h1>
+        <img
+          src="./images/logo-fiapao.png"
+          alt="Logo do Fiapão em branco com fundo transparente."
+        />
+      </div>
+      <div class="h2-text">
+        <h2 class="future">O futuro</h2>
+        <h2>começa aqui</h2>
+      </div>
     </div>
 
     <!-- Seções -->
     <section class="sections">
-
       <!-- O robô -->
       <div class="section" id="robot">
-            <h2>O robô</h2>
-            <div class="content">
-                <div class="text">
-                    <p>
-                      Desenvolvido pelos alunos do curso de Sistemas de Informação da FIAP, nosso robô combina tecnologia de ponta e uma abordagem prática de aprendizado. Com um design baseado em um veículo controlado por Bluetooth e acionado via celular, ele foi criado para se destacar em competições como a Robocup, onde a estratégia é simples, mas desafiadora: proteger sua bexiga enquanto tenta estourar a do adversário.</p>
-                      <p>Nosso robô é equipado com uma arma de precisão controlada pelo poderoso Arduino Mega, que garante movimentos rápidos e ações coordenadas com eficiência. Desde o controle remoto via Bluetooth até o disparo da arma, cada componente foi projetado com atenção aos detalhes para garantir desempenho superior na competição. Passamos por uma rigorosa fase de testes para otimizar a velocidade, precisão e robustez, assegurando que o robô esteja pronto para enfrentar qualquer desafio.</p>
-                </div>
-                <div class="content-images">
-                    <img src="./images/combate-robocup.jpg" alt="Combate entre robôs na robocup, dentro de uma arena circular, com pessoas em volta assistindo.">
-                    <img src="./images/robocup.jpg" alt="Combate entre robôs na robocup, entre um com uma bexiga branca e outro com uma preta.">
-                </div>
-            </div>
-        </div>
-    
-        <!-- Imagens -->
-        <div id="images" class="section">
-            <h2>Imagens</h2>
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./images/robo.jpg" class="d-block w-100" alt="Imagem da base do robô Fiapão virada para a esquerda.">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/robo-2.jpg" class="d-block w-100" alt="Imagem da base do robô Fiapão virada para a direita.">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/robo-superficial.jpg" class="d-block w-100" alt="Imagem superficial da base do robô Fiapão.">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/robo-traseira.jpg" class="d-block w-100" alt="Imagem traseira do robô Fiapão.">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/desenho-robo.png" class="d-block w-100" alt="Primeiros rascunhos do projeto do robô Fiapão.">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/desenho-arma.png" class="d-block w-100" alt="Desenhos da arma do robô Fiapão.">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/desenho-componentes.jpg" class="d-block w-100" alt="Desenhos do robô Fiapão e disposição dos componentes.">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    
-        <!-- Armas -->
-        <div id="weapons" class="section">
-            <h2>Armas</h2>
-            <div class="accordion bg-dark-subtle" data-bs-theme="dark" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Explicação
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <p>A arma do nosso robô consistirá em uma haste de metal conectada, em uma extremidade, a uma bola de isopor repleta de agulhas, e na outra, a um servo motor montado no topo do robô. Esse motor permitirá que a arma execute um movimento de 180°, acionado pelos sensores, com o objetivo de estourar a bexiga do robô adversário. A arma ficará ativa por 15 segundos antes de retornar à sua posição original, aguardando a próxima ativação. </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Haste de Metal
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <img src="./images/haste-metal.webp" alt="Haste de metal que serve como um dos componentes da arma do robô.">
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Bola de Ispor
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <img src="./images/bola-isopor.webp" alt="Bola de isopor que serve como um dos componentes da arma do robô.">
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      Agulha
-                    </button>
-                  </h2>
-                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <img src="./images/agulha.webp" alt="Agulha que serve como um dos componentes da arma do robô.">
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                      Servo Motor
-                    </button>
-                  </h2>
-                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <img src="./images/servo.webp" alt="Servo Motor que serve como um dos componentes da arma do robô.">
-                    </div>
-                  </div>
-                </div>
-            </div>
+        <h2>O Robô</h2>
+        <div class="content">
+          <div class="text">
+            <p>
+              Desenvolvido pelos alunos do curso de Sistemas de Informação da
+              FIAP, nosso robô combina tecnologia de ponta e uma abordagem
+              prática de aprendizado. Com um design baseado em um veículo
+              controlado por Bluetooth e acionado via celular, ele foi criado
+              para se destacar em competições como a Robocup, onde a estratégia
+              é simples, mas desafiadora: proteger sua bexiga enquanto tenta
+              estourar a do adversário.
+            </p>
+            <p>
+              Equipado com uma arma de precisão controlada pelo poderoso Arduino
+              Mega, o robô garante movimentos rápidos e ações coordenadas com
+              eficiência. Cada componente foi projetado com atenção aos
+              detalhes, desde o controle remoto via Bluetooth até o disparo da
+              arma, para garantir desempenho superior na competição. Passamos
+              por uma rigorosa fase de testes para otimizar sua velocidade,
+              precisão e robustez, assegurando que ele esteja pronto para
+              enfrentar qualquer desafio.
+            </p>
+          </div>
+          <div class="content-images">
+            <img
+              src="./images/combate-robocup.jpg"
+              alt="Combate entre robôs na robocup, dentro de uma arena circular, com pessoas em volta assistindo."
+            />
+            <img
+              src="./images/robocup.jpg"
+              alt="Combate entre robôs na robocup, entre um com uma bexiga branca e outro com uma preta."
+            />
+          </div>
         </div>
 
-        <!-- Hardware -->
-        <div id="hardware" class="section">
-            <h2>Hardware</h2>
-            <div class="container text-center">
-                <div class="row row-cols-4">
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/arduino.jpg" class="card-img-top" alt="Placa de Arduino Mega que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Arduino Mega 2560</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/bluetooth.png" class="card-img-top" alt="Bluetooth HC05 que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Bluetooth HC05</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/protoboard.jpg" class="card-img-top" alt="Mini Protoboard que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">MIni Protoboard</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/chave-fim-cursor.webp" class="card-img-top" alt="Chave Fim de Curso que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Chave Fim de Curso</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/motor-dc.webp" class="card-img-top" alt="Motor DC que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Motor DC 3-6v</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/roda.webp" class="card-img-top" alt="Roda do motor DC que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Roda Motor DC</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/ponte-h.webp" class="card-img-top" alt="Ponte H L298N que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Ponte H L298N</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/fita-led.webp" class="card-img-top" alt="Fita Led que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Fita Led</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/pilhas.webp" class="card-img-top" alt="Pilhas que fazem parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Pilhas</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/roda-boba.webp" class="card-img-top" alt="Roda Boba que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Roda Boba</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/soquete-pilha.webp" class="card-img-top" alt="Soquete para 6 pilhas que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Soquete para 6 Pilhas</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-                            <img src="./images/switch.webp" class="card-img-top" alt="Switch Liga/Desliga 4 portas que faz parte das peças de hardware do Fiapão">
-                            <div class="card-body">
-                              <h5 class="card-title">Switch Liga/Desliga 4 portas</h5>
-                            </div>
-                        </div>
-                    </div>
+        <h3>Brincadeiras e Jogos</h3>
+        <div class="content">
+          <div class=>
+            <p>
+              Nosso robô não só se destaca em competições, mas também
+              proporciona uma série de brincadeiras divertidas e interativas que
+              incentivam o aprendizado de forma lúdica. Confira as principais
+              atividades que você pode programar e desfrutar com o robô:
+            </p>
+
+            <h4 class="subtitle">Corridas de Velocidade</h4>
+            <p>
+              Organize emocionantes competições de corrida! Controlando o robô
+              via Bluetooth, você pode ajustar sua velocidade para superar
+              desafios em pistas improvisadas. Teste suas habilidades e veja
+              quem chega ao final primeiro!
+            </p>
+
+            <h4 class="subtitle">Jogos de Perseguição</h4>
+            <p>
+              Programe o robô para participar de jogos de perseguição. Ele pode
+              seguir outro robô ou desviar enquanto tenta fugir. Essa atividade
+              combina diversão com estratégia, criando um ambiente dinâmico e
+              competitivo.
+            </p>
+
+            <h4 class="subtitle">Desafios Personalizados</h4>
+            <p>
+              A programação do robô é flexível e permite a criação de seus
+              próprios desafios. De obstáculos a novos jogos inventados, os
+              jovens programadores podem soltar a imaginação e criar
+              experiências únicas com o robô!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagens -->
+      <div id="images" class="section">
+        <h2>Imagens</h2>
+        <div
+          id="carouselExampleRide"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/robo-semi-pronto.jpg"
+                class="d-block w-100"
+                alt="Imagem do robô Fipão robo semi-pronto."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/robo.jpg"
+                class="d-block w-100"
+                alt="Imagem da base do robô Fiapão virada para a esquerda."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/robo-2.jpg"
+                class="d-block w-100"
+                alt="Imagem da base do robô Fiapão virada para a direita."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/robo-superficial.jpg"
+                class="d-block w-100"
+                alt="Imagem superficial da base do robô Fiapão."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/robo-traseira.jpg"
+                class="d-block w-100"
+                alt="Imagem traseira do robô Fiapão."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/desenho-robo.png"
+                class="d-block w-100"
+                alt="Primeiros rascunhos do projeto do robô Fiapão."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/desenho-arma.png"
+                class="d-block w-100"
+                alt="Desenhos da arma do robô Fiapão."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/desenho-componentes.jpg"
+                class="d-block w-100"
+                alt="Desenhos do robô Fiapão e disposição dos componentes."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleRide"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleRide"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Armas -->
+      <div id="weapons" class="section">
+        <h2>Armas</h2>
+        <div
+          class="accordion bg-dark-subtle"
+          data-bs-theme="dark"
+          id="accordionExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Explicação
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  A arma do nosso robô consistirá em uma haste de metal
+                  conectada, em uma extremidade, a uma bola de isopor repleta de
+                  agulhas, e na outra, a um servo motor montado no topo do robô.
+                  Esse motor permitirá que a arma execute um movimento de 180°,
+                  acionado pelos sensores, com o objetivo de estourar a bexiga
+                  do robô adversário. A arma ficará ativa por 15 segundos antes
+                  de retornar à sua posição original, aguardando a próxima
+                  ativação.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Haste de Metal
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="./images/haste-metal.webp"
+                  alt="Haste de metal que serve como um dos componentes da arma do robô."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Bola de Ispor
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="./images/bola-isopor.webp"
+                  alt="Bola de isopor que serve como um dos componentes da arma do robô."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Agulha
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="./images/agulha.webp"
+                  alt="Agulha que serve como um dos componentes da arma do robô."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Servo Motor
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  src="./images/servo.webp"
+                  alt="Servo Motor que serve como um dos componentes da arma do robô."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hardware -->
+      <div id="hardware" class="section">
+        <h2>Hardware</h2>
+        <div class="container text-center">
+          <div class="row row-cols-4">
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/arduino.jpg"
+                  class="card-img-top"
+                  alt="Placa de Arduino Mega que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Arduino Mega 2560</h5>
                 </div>
               </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/bluetooth.png"
+                  class="card-img-top"
+                  alt="Bluetooth HC05 que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bluetooth HC05</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/protoboard.jpg"
+                  class="card-img-top"
+                  alt="Mini Protoboard que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">MIni Protoboard</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/chave-fim-cursor.webp"
+                  class="card-img-top"
+                  alt="Chave Fim de Curso que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Chave Fim de Curso</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/motor-dc.webp"
+                  class="card-img-top"
+                  alt="Motor DC que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Motor DC 3-6v</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/roda.webp"
+                  class="card-img-top"
+                  alt="Roda do motor DC que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Roda Motor DC</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/ponte-h.webp"
+                  class="card-img-top"
+                  alt="Ponte H L298N que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ponte H L298N</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/fita-led.webp"
+                  class="card-img-top"
+                  alt="Fita Led que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Fita Led</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/pilhas.webp"
+                  class="card-img-top"
+                  alt="Pilhas que fazem parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pilhas</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/roda-boba.webp"
+                  class="card-img-top"
+                  alt="Roda Boba que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Roda Boba</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/soquete-pilha.webp"
+                  class="card-img-top"
+                  alt="Soquete para 6 pilhas que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Soquete para 6 Pilhas</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-dark mb-3" style="max-width: 18rem">
+                <img
+                  src="./images/switch.webp"
+                  class="card-img-top"
+                  alt="Switch Liga/Desliga 4 portas que faz parte das peças de hardware do Fiapão"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Switch Liga/Desliga 4 portas</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    
-        <!-- Vídeos -->
-        <div id="videos" class="section">
-            <h2>Vídeos</h2>
-            <div class="ratio ratio-4x3">
-                <iframe src="https://www.youtube.com/embed/QP8Nsz60ZAU" title="ROBÔ FIAPÃO EM MOVIMENTO" allowfullscreen></iframe>
-            </div>
-            <div class="ratio ratio-4x3">
-                <iframe src="https://www.youtube.com/embed/RXuJJZ3ukog" title="MAKING OF MONTAGEM ROBÔ FIAPÃO" allowfullscreen></iframe>
-            </div>
-        </div>        
+      </div>
+
+      <!-- Vídeos -->
+      <div id="videos" class="section">
+        <h2>Vídeos</h2>
+        <div class="ratio ratio-4x3">
+          <iframe
+            src="https://www.youtube.com/embed/QP8Nsz60ZAU"
+            title="ROBÔ FIAPÃO EM MOVIMENTO"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="ratio ratio-4x3">
+          <iframe
+            src="https://www.youtube.com/embed/RXuJJZ3ukog"
+            title="MAKING OF MONTAGEM ROBÔ FIAPÃO"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
     </section>
 
     <!-- Conheça os Fiapinhos -->
     <div class="section" id="meet-us">
       <h2>Conheça os Fiapinhos</h2>
       <div class="meet-us-row">
-          <div class="person">
-              <img src="./images/erick.jpg" alt="Homem sorrindo com um moletom bege.">
-              <div class="information">
-                  <p>Erick Kenzo Uehara Uehara</p>
-                  <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-                <p class="position">Engenheiro de hardware</p>
+        <div class="person">
+          <img
+            src="./images/erick.jpg"
+            alt="Homem sorrindo com um moletom bege."
+          />
+          <div class="information">
+            <p>Erick Kenzo Uehara Uehara</p>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
           </div>
-          <div class="person">
-              <img src="./images/felipe.jpeg" alt="Homem sorrindo com uma camiseta branca.">
-              <div class="information">
-                  <p>Felipe Dyundi Takara</p>
-                  <a href="https://www.linkedin.com/in/felipe-takara-5125b230a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-              <p class="position">Engenheiro de hardware</p>
+          <p class="position">Engenheiro de hardware</p>
+        </div>
+        <div class="person">
+          <img
+            src="./images/felipe.jpeg"
+            alt="Homem sorrindo com uma camiseta branca."
+          />
+          <div class="information">
+            <p>Felipe Dyundi Takara</p>
+            <a
+              href="https://www.linkedin.com/in/felipe-takara-5125b230a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </div>
-          <div class="person">
-              <img src="./images/joao.jpeg" alt="Homem branco sorrindo com camiseta cinza.">
-              <div class="information">
-                  <p>João Vitor Pedreira de Castro</p>
-                  <a href="https://www.linkedin.com/in/jo%C3%A3o-castro-512ab52b5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-              <p class="position">Engenheiro de software</p>
+          <p class="position">Engenheiro de hardware</p>
+        </div>
+        <div class="person">
+          <img
+            src="./images/joao.jpeg"
+            alt="Homem branco sorrindo com camiseta cinza."
+          />
+          <div class="information">
+            <p>João Vitor Pedreira de Castro</p>
+            <a
+              href="https://www.linkedin.com/in/jo%C3%A3o-castro-512ab52b5/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </div>
+          <p class="position">Engenheiro de software</p>
+        </div>
       </div>
       <div class="meet-us-row">
-          <div class="person">
-              <img src="./images/leonardo.jpeg" alt="Homem branco sorrindo com camiseta azul e boné.">
-              <div class="information">
-                  <p>Leonardo Mortari</p>
-                  <a href="https://www.linkedin.com/in/leonardo-mortari-901b992a7/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-              <p class="position">Engenheiro de software</p>
+        <div class="person">
+          <img
+            src="./images/leonardo.jpeg"
+            alt="Homem branco sorrindo com camiseta azul e boné."
+          />
+          <div class="information">
+            <p>Leonardo Mortari</p>
+            <a
+              href="https://www.linkedin.com/in/leonardo-mortari-901b992a7/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </div>
-          <div class="person">
-              <img src="./images/vinicius.jpeg" alt="Homem branco sorrindo de camiseta marrom e boné.">
-              <div class="information">
-                  <p>Vinicius Fagundes da Silva</p>
-                  <a href="https://www.linkedin.com/in/vinicius-fagundes-b977a930a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              </div>
-              <p class="position">Chefe de Marketing</p>
+          <p class="position">Engenheiro de software</p>
+        </div>
+        <div class="person">
+          <img
+            src="./images/vinicius.jpeg"
+            alt="Homem branco sorrindo de camiseta marrom e boné."
+          />
+          <div class="information">
+            <p>Vinicius Fagundes da Silva</p>
+            <a
+              href="https://www.linkedin.com/in/vinicius-fagundes-b977a930a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </div>
+          <p class="position">Chefe de Marketing</p>
+        </div>
       </div>
-  </div>
+    </div>
 
-  <!-- Seja Sócio -->
-  <div class="section" id="be-partner">
-    <h2>Seja nosso sócio</h2>
-    <div class="presentation">
-      <p>Você quer investir em inovação e educação? Temos a oportunidade ideal para você!</p>
-      <p>O Fiapão transforma o ensino de robótica para jovens entre 13 e 17 anos. Nossa missão é preparar a nova geração com habilidades essenciais para o futuro.</p>
-    </div>
-    <div>
-      <div class="why-invest">
-        <h3>Por que Investir?</h3>
+    <!-- Seja Sócio -->
+    <div class="section" id="be-partner">
+      <h2>Seja nosso Sócio e Impulsione a Inovação</h2>
+      <div class="presentation">
+        <p>
+          Deseja investir no futuro da educação e inovação tecnológica? Esta é a
+          sua oportunidade!
+        </p>
+        <p>
+          O Fiapão está revolucionando o ensino de robótica para jovens de 13 a
+          17 anos, desenvolvendo as habilidades cruciais para o mercado de
+          trabalho do futuro. Nossa missão é formar a próxima geração de líderes
+          tecnológicos.
+        </p>
       </div>
-      <h4>Perfil ideal</h4>
-      <p>Nossa pesquisa revelou que nossos principais parceiros são pessoas com ensino superior, entre 20 e 60 anos, solteiros, sem filhos, e com renda mensal de mais de R$ 10.000, que veem o valor na robótica educacional e estão dispostos a investir até 10% de sua renda nesse programa.</p>
-      <h4>Mercado Promissor</h4>
-      <p>Mais de 90% dos nossos potenciais clientes acreditam que a robótica é uma ferramenta essencial para o desenvolvimento educacional. Estamos prontos para atender essa demanda crescente com soluções inovadoras.</p>
-      <h4>Retorno Financeiro</h4>
-      <p>Além do impacto social, oferecemos a oportunidade de retornos financeiros sólidos. Nossa estimativa de lucro projetado indica que, com uma taxa de adoção inicial de 10% do nosso público-alvo, podemos alcançar uma receita mensal superior a R$ 100.000 nos primeiros 12 meses de operação. Com a expansão e parcerias estratégicas, esse número pode aumentar em até 300% nos próximos dois anos.</p>
-      <h4>Impacto Social</h4>
-      <p>Ajude a transformar a educação no Brasil, enquanto obtém um excelente retorno financeiro.</p>
+      <div>
+        <div class="why-invest">
+          <h3>Por que Investir no Fiapão?</h3>
+        </div>
+        <h4>Parceiro Ideal</h4>
+        <p>
+          Nossos investidores compartilham um perfil ambicioso: ensino superior,
+          idade entre 20 e 60 anos, solteiros, sem filhos, e com uma renda
+          mensal acima de R$ 10.000. Eles reconhecem o valor da robótica
+          educacional e estão dispostos a investir até 10% de sua renda para
+          participar desse movimento inovador.
+        </p>
+        <h4>Um Mercado em Expansão</h4>
+        <p>
+          A robótica educacional está em alta, com mais de 90% de nossos
+          potenciais clientes considerando essa ferramenta vital para o
+          desenvolvimento acadêmico. Estamos à frente dessa demanda crescente
+          com soluções disruptivas.
+        </p>
+        <h4>Potencial de Retorno Financeiro</h4>
+        <p>
+          Além do impacto social, o Fiapão oferece um retorno financeiro
+          atrativo. Com uma adoção inicial de apenas 10% de nosso público-alvo,
+          projetamos uma receita mensal superior a R$ 100.000 nos primeiros 12
+          meses de operação. Através de parcerias estratégicas e crescimento
+          acelerado, essa receita pode triplicar nos próximos dois anos, gerando
+          um lucro sólido e consistente.
+        </p>
+        <h4>Transformação Social</h4>
+        <p>
+          Invista no futuro da educação no Brasil, enquanto colhe excelentes
+          retornos financeiros. Juntos, podemos mudar vidas e preparar jovens
+          para um mundo mais tecnológico e dinâmico.
+        </p>
+      </div>
+      <p>
+        Entre em contato para mais informações e torne-se parte deste projeto
+        inovador e de sucesso!
+      </p>
+      <h3>fiapao@gmail.com</h3>
     </div>
-    <p>Entre em conta para obter mais informações e juntar-se a nós neste projeto de sucesso!</p>
-    <h3>fiapao@gmail.com</h3>
-  </div>
 
     <!-- Footer -->
     <footer class="footer bg-dark-subtle" data-bs-theme="dark">
       <p>Feito com muito carinho pelos Fiapinhos!</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

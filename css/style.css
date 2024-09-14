@@ -121,6 +121,10 @@ h2 {
     height: 21vw;
 }
 
+.subtitle {
+    color: var(--color-pink);
+}
+
 .carousel-inner img {
     width: 100%;
     height: 45vw;
