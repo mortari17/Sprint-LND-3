@@ -44,33 +44,42 @@
       data-bs-theme="dark"
     >
       <div class="container-fluid">
-        <ul class="navbar-nav d-flex flex-row me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#robot">O robô</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#images">Imagens</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#weapons">Armas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#hardware">Hardware</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#videos">Vídeos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#meet-us"
-              >Conheça os Fiapinhos</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-brand" href="#be-partner"
-              >Seja nosso sócio</a
-            >
-          </li>
-        </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#robot">O robô</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#images">Imagens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#weapons">Armas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hardware">Hardware</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videos">Vídeos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#meet-us">Conheça os Fiapinhos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#be-partner">Seja nosso sócio</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -130,7 +139,7 @@
 
         <h3>Brincadeiras e Jogos</h3>
         <div class="content">
-          <div class=>
+          <div>
             <p>
               Nosso robô não só se destaca em competições, mas também
               proporciona uma série de brincadeiras divertidas e interativas que
@@ -161,7 +170,54 @@
               jovens programadores podem soltar a imaginação e criar
               experiências únicas com o robô!
             </p>
+            <br />
+            <div>
+              <h4 class="subtitle">Chat</h4>
+              <p>
+                Junte-se ao nosso <strong>chat exclusivo</strong> para
+                compradores do Fiapão e organize atividades, competições e
+                desafios com outros entusiastas! Através do chat, você poderá
+                trocar dicas, ideias e até mesmo criar torneios personalizados
+                com outros donos de robôs. Construa sua rede de competição e
+                amplie suas experiências com o Fiapão!
+              </p>
+              <a href="#chat" class="btn btn-dark">Participe do Chat!</a>
+            </div>
           </div>
+        </div>
+
+        <h3>Manual de Instruções</h3>
+        <div class="content instructions">
+          <h4 class="subtitle">Instruções Rápidas</h4>
+          <ol>
+            <li>
+              <strong>Carregamento:</strong> Conecte o robô à energia. LED verde
+              indica pronto.
+            </li>
+            <li>
+              <strong>Conexão Bluetooth:</strong> Ative o Bluetooth no celular,
+              emparelhe com "Fiapão" e abra o app.
+            </li>
+            <li>
+              <strong>Movimentação:</strong> Use o joystick no app para
+              controlar o robô.
+            </li>
+            <li><strong>Disparo:</strong> Mire e dispare pelo app.</li>
+          </ol>
+
+          <h4 class="subtitle">Manutenção e Segurança</h4>
+          <ul>
+            <li>Limpe após uso e verifique conexões.</li>
+            <li>Evite água e superfícies perigosas.</li>
+          </ul>
+
+          <h4 class="subtitle">Solução de Problemas</h4>
+          <ul>
+            <li>
+              <strong>Não conecta:</strong> Verifique Bluetooth e bateria.
+            </li>
+            <li><strong>Não dispara:</strong> Confira conexão e carga.</li>
+          </ul>
         </div>
       </div>
 
@@ -661,10 +717,11 @@
           sua oportunidade!
         </p>
         <p>
-          O Fiapão está revolucionando o ensino de robótica para jovens de 13 a
-          17 anos, desenvolvendo as habilidades cruciais para o mercado de
-          trabalho do futuro. Nossa missão é formar a próxima geração de líderes
-          tecnológicos.
+          O Fiapão está transformando o ensino de robótica para jovens de 0 a 17
+          anos, desenvolvendo habilidades cruciais para o mercado de trabalho do
+          futuro. Nossa missão é formar a próxima geração de líderes
+          tecnológicos, capacitando estudantes com conhecimentos práticos e
+          relevantes.
         </p>
       </div>
       <div>
@@ -674,32 +731,37 @@
         <h4>Parceiro Ideal</h4>
         <p>
           Nossos investidores compartilham um perfil ambicioso: ensino superior,
-          idade entre 20 e 60 anos, solteiros, sem filhos, e com uma renda
-          mensal acima de R$ 10.000. Eles reconhecem o valor da robótica
-          educacional e estão dispostos a investir até 10% de sua renda para
-          participar desse movimento inovador.
+          idade entre 20 e 60 anos, solteiros, sem filhos e com uma renda mensal
+          acima de R$ 10.000. Eles reconhecem o valor da robótica educacional e
+          estão dispostos a investir até 10% de sua renda para fazer parte desse
+          movimento inovador.
         </p>
         <h4>Um Mercado em Expansão</h4>
         <p>
           A robótica educacional está em alta, com mais de 90% de nossos
           potenciais clientes considerando essa ferramenta vital para o
-          desenvolvimento acadêmico. Estamos à frente dessa demanda crescente
-          com soluções disruptivas.
+          desenvolvimento acadêmico. Além disso, as instituições que utilizam
+          robótica educacional estão crescendo rapidamente, com uma crescente
+          demanda por tecnologia que promova o aprendizado prático.
         </p>
         <h4>Potencial de Retorno Financeiro</h4>
         <p>
           Além do impacto social, o Fiapão oferece um retorno financeiro
           atrativo. Com uma adoção inicial de apenas 10% de nosso público-alvo,
-          projetamos uma receita mensal superior a R$ 100.000 nos primeiros 12
-          meses de operação. Através de parcerias estratégicas e crescimento
-          acelerado, essa receita pode triplicar nos próximos dois anos, gerando
-          um lucro sólido e consistente.
+          que inclui jovens de 0 a 17 anos, projetamos uma receita mensal
+          superior a R$ 100.000 nos primeiros 12 meses de operação. Através de
+          parcerias estratégicas e crescimento acelerado, essa receita pode
+          triplicar nos próximos dois anos, gerando um lucro sólido e
+          consistente.
         </p>
         <h4>Transformação Social</h4>
         <p>
-          Invista no futuro da educação no Brasil, enquanto colhe excelentes
-          retornos financeiros. Juntos, podemos mudar vidas e preparar jovens
-          para um mundo mais tecnológico e dinâmico.
+          Invista no futuro da educação no Brasil e colha excelentes retornos
+          financeiros. Acreditamos que a robótica educacional não só transforma
+          a aprendizagem, mas também prepara os jovens para um mundo mais
+          tecnológico e dinâmico. Com mais de 90% dos nossos potenciais clientes
+          reconhecendo a importância da robótica, estamos bem posicionados para
+          fazer a diferença.
         </p>
       </div>
       <p>
@@ -707,6 +769,11 @@
         inovador e de sucesso!
       </p>
       <h3>fiapao@gmail.com</h3>
+      <div class="social-medias">
+        <i class="fa-brands fa-facebook"><a href="#"></a></i>
+        <i class="fa-brands fa-instagram"><a href="#"></a></i>
+        <i class="fa-brands fa-x-twitter"><a href="#"></a></i>
+      </div>
     </div>
 
     <!-- Footer -->

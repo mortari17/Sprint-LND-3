@@ -3,3 +3,9 @@ Estou fazendo um site sobre um robo construido pela minha equipe na minha faculd
 leve como base o principal perfil dos nossos potenciais investidores que descobrimos atraves de uma pesquisa:
 
 2-adicione tambem uma estimativa de ganhos financeiros
+
+3-Levando em conta o conceito de que o fiapão é um robo de uma startup que esta sendo vendido dentro de um site, considere sua descrição, a seguir, e monte um manual de instruções simples para ser exposto no site.
+
+Desenvolvido pelos alunos do curso de Sistemas de Informação da FIAP, nosso robô combina tecnologia de ponta e uma abordagem prática de aprendizado. Com um design baseado em um veículo controlado por Bluetooth e acionado via celular, ele foi criado para se destacar em competições como a Robocup, onde a estratégia é simples, mas desafiadora: proteger sua bexiga enquanto tenta estourar a do adversário.
+
+Equipado com uma arma de precisão controlada pelo poderoso Arduino Mega, o robô garante movimentos rápidos e ações coordenadas com eficiência. Cada componente foi projetado com atenção aos detalhes, desde o controle remoto via Bluetooth até o disparo da arma, para garantir desempenho superior na competição. Passamos por uma rigorosa fase de testes para otimizar sua velocidade, precisão e robustez, assegurando que ele esteja pronto para enfrentar qualquer desafio.
